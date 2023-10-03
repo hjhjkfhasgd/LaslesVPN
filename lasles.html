@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lasles Vpn</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin:0;
+            padding: 0;
+        }
+        header{
+            background-color: #FFFFFF;
+            display: flex;
+            /* position: sticky;
+            top: 20px; */
+            margin-top: 54px;
+            justify-content: space-around;
+        }
+        header nav ol{
+            list-style-type: none;
+        }
+        header nav ol{
+                display: flex;
+                gap: 40px; 
+                margin-top: 12px;
+        }
+        header nav ol li a{
+            text-decoration: none;
+            color: #444444;
+            font-size: 16px;
+        }
+        .button{
+            display: flex;
+            gap: 29px;
+            justify-content: center;
+            font-weight: bold;
+        }
+        .button a{
+            color: #0B132A;
+            text-decoration: none;
+            margin-top: 9px;
+        }
+        .sign-up{
+            text-align: center;
+            width: 150px;
+            height: 45px;
+            border: 1px solid #F53855;
+            border-radius:50px ;
+            padding: 10px;
+        }
+        .sign-up a{
+            width: 60px;
+            height: 19px;
+            padding-top: 59px;
+            color: #F53855;
+        }
+        .vpn{
+            width: 555px;
+        }
+        .elements{
+            display: flex;
+            margin-top: 56px;
+            justify-content: space-around;
+        }
+        .elements p{
+            font-size: 50px;
+            font-weight: bold;
+            font-family:math;
+            margin-top: 50px;
+        }
+        .details{
+            width: 555px;
+        }
+        .details p{
+            font-size: 16px;
+            font-weight: normal;
+            padding-right: 29px;
+        }
+        .elements button{
+            width: 250px;
+            margin-top: 40px;
+            height: 50px;
+            border-radius: 10px;
+            background: #F54747;
+            border: #FFFFFF;
+            box-shadow: 0 15px 31px rgb(242 71 71 / 50%);
+        } 
+        .elements button a{
+            text-decoration: none;
+            font-weight: 700;
+            color: #FFFFFF;
+        }  
+        .box{
+            width: 1140px;
+            height: 80px;
+            margin-top: 120px;
+            display: flex;
+            justify-content: space-around;
+            margin-right: 50px;
+        }
+        .box img{
+            height: 55px;
+            width: 55px;
+        }
+        .box-element{
+            padding-right: 120px;
+            border-right:2px solid #EEEFF2  ;
+            display: flex;
+            gap: 2rem;
+            align-items: center;
+        }
+        .box-element p{
+            font-size: 20px;
+            font-weight: 400;
+            color: #4F5665;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }       
+        .box-element p b{
+            color: #0B132A;
+            font-size: 25px;
+            font-weight: 700;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .Features-main{
+            margin-top: 95px;
+            display: flex;
+            justify-content: space-around;
+        }
+        .Features{
+            width: 508px;
+            height: 414px;
+        }
+        .Features-element{
+            width:383px;
+            height: 100px;
+        }
+        .Features-element p{
+            font-size: 35px;
+            font-weight: 500;
+            color: #0B132A;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .Features-element .inner p{
+            font-size: 16px;
+            font-weight: 400;
+            color: #0B132A;
+        }
+       /* Define a class for the ul element */
+        .green-checklist {
+            list-style: none; 
+            padding-left: 0;  
+            }
+
+        .green-checklist li::before {
+            content: "\2713"; 
+            color: rgb(0, 0, 0);     
+            display: inline-block;
+            width: 1em;       
+            margin-left: -1em; 
+            }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="Logo.png" alt="logo">
+
+        <nav>
+            <ol>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">Testimonials</a></li>
+                <li><a href="#">Help</a></li>
+            </ol>
+        </nav>
+
+        <div class="button">
+            <a href="#">Sign In</a>
+            <div class="sign-up">
+                <a href="#">Sign Up</a>
+            </div>
+        </div>
+
+    </header>
+    
+    <div class="elements">
+
+            <div class="text">
+                <div class="vpn">
+                    <p>Want anything to be
+                    <br>easy with <b>LaslesVPN</b>.</p>
+                </div>
+
+                <div class="details">
+                    <p>Provide a network for all your needs with ease and fun using <b>LaslesVPN</b> discover interesting fheatures from us.</p>
+                </div>
+
+                <button><a href="#">Get Started</a></button>
+            </div>
+
+            <img src="Illustration 1.jpg" alt="photo" width="611px" height="382px">
+    </div>
+
+<div style="display: flex; justify-content: center;">
+    <div class="box">
+            <div class="box-element">
+                <img src="imgs/user.jpg" alt="user">
+                <p><b>90+</b><br>Users</p>
+            </div>
+            <div class="box-element">
+                <img src="imgs/location.png" alt="location">
+                <p><b>30+</b><br>Locations</p>
+            </div>
+            <div class="box-element">
+                <img src="imgs/Server.jpg" alt="server">
+                <p><b>50+</b><br>Servers</p>
+            </div>
+    </div>
+</div>    
+
+<div class="Features-main">
+    <div class="Features">
+        <img src="imgs/Illustration 2.jpg" alt="photo">
+    </div>
+     
+    <div class="Features-element">
+        <p>We Provide Many Features You Can Use</p>
+        <div class="inner">
+            <p>You can explore the features that we provide with fun and have their own functions each feature.</p>
+        </div>
+        <ul class="green-checklist">
+            <li>Powerfull online protection.</li>
+            <li>Internet without borders.</li>
+            <li>Supercharged VPN</li>
+            <li>No specific time limits.</li>
+        </ul>
+    </div>
+</div>
+</body>
+</html>
